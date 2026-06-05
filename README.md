@@ -134,4 +134,4 @@ pip3 install --break-system-packages -r requirements.txt
 
 ## License
 
-MIT
+Apache 2.0
