@@ -1,0 +1,4 @@
+RPi.GPIO
+smbus2
+python-chess
+requests

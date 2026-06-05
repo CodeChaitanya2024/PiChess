@@ -147,7 +147,7 @@ SCAN_FULL_INTERVAL = 0.020   # Full 8-column sensor scan every 20 ms
 DEBOUNCE_COUNT     = 3       # Consecutive identical scans to confirm change
 
 STOCKFISH_PATH     = '/usr/games/stockfish'
-LICHESS_TOKEN      = 'your_lichess_token_here'
+LICHESS_TOKEN      = os.environ.get('LICHESS_TOKEN', '')
 LICHESS_BASE       = 'https://lichess.org/api'
 GAME_LOG_DIR       = '/home/pi/game_logs/'
 

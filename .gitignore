@@ -1,0 +1,18 @@
+# Logs
+*.log
+chessboard.log
+
+# Game data
+game_logs/
+
+# Python cache
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
